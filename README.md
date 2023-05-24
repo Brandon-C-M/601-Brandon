@@ -6,10 +6,12 @@ Alumno: Brandon Ulises Casas Morales
 
 1 HolaMundo.java
 
-2 V1Trifiv
+2 V1 Trifiv (ERROR)
 
-3 V2 Trifi
+3 V2 Trifi (IF ELSE IF)
 
-4 V3TRIFIV
+4 V3 TRIFIV (METODO)
 
-5 V4TRIFIV POO
+5 V4 TRIFIV (DOS CLASES)
+
+6 SETUP (EJECUTABL DEL JUEGO)
