@@ -40,7 +40,7 @@
 						case 68:
 							der = true;
 							break;
-						case 65:
+						case 65:s
 							izq = true;
 							break;
 						}
