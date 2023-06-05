@@ -14,4 +14,8 @@ Alumno: Brandon Ulises Casas Morales
 
 5 V4 TRIFIV (DOS CLASES)
 
-6 SETUP (EJECUTABL DEL JUEGO)
+6 SETUP (EJECUTABLE DEL JUEGO)
+
+7 Protagonista
+
+8 Antagonista
