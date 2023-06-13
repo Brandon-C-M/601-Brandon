@@ -37,20 +37,20 @@
 					
 				public function keydown (e: KeyboardEvent): void{
 					switch (e.keyCode){
-						case 68:
+						case 39:
 							der = true;
 							break;
-						case 65:s
+						case 37:
 							izq = true;
 							break;
 						}
 					} 	
 				public function keyup (e: KeyboardEvent): void{
 					switch (e.keyCode){
-						case 68:
+						case 39:
 							der = false;
 							break;
-						case 65:
+						case 37:
 							izq = false;
 							break;
 						}
