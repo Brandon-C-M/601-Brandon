@@ -1,0 +1,76 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>176</x><y>376</y><w>168</w><h>200</h></coordinates><panel_attributes> protagonista 
+--
+  - izq: Boolean
+  - der: Boolean
+  - vel: int
+  - lim_x_der: int
+  - lim_x_izq: int
+--
+  + protagonista()
+  + motor(e: Event): void
+  + controles(): void
+  + keydown(e: KeyboardEvent): void
+  + keyup(e: KeyboardEvent): void
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>160</y><w>192</w><h>168</h></coordinates><panel_attributes>setup1
+-
+  - Fondo_new
+  - Piso_new
+  - Protagonista_new
+  - Anta_new
+  - puntos
+  - puntos_box_new
+-
+  + setup1()
+  + actualiza_puntos(e:Event)
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>824</x><y>232</y><w>168</w><h>112</h></coordinates><panel_attributes>puntos_box 
+-
+
+--
+  + puntos_box()
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>832</x><y>528</y><w>168</w><h>104</h></coordinates><panel_attributes>bala 
+--
+- vel: Number
+--
++ bala(pos_x, pos_y)
++ mover(e: Event)
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>480</y><w>168</w><h>200</h></coordinates><panel_attributes>anta 
+--
+- vel: int
+- dir: Number
+- lim_x_der: int
+- lim_x_izq: int
+- cambia: Timer
+- tipo: Number
+- lanzar: Timer
+- contador: int
+- textField: TextField
+--
++ anta()
++ cambia_dir(e: TimerEvent)
++ actualiza(e: Event)
++ lanza_bala(e: TimerEvent)
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>224</x><y>16</y><w>168</w><h>88</h></coordinates><panel_attributes>moviclip
+--
+--
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>96</y><w>56</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>320</y><w>24</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>568</y><w>232</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>520</y><w>296</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>350;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>904</x><y>336</y><w>24</w><h>208</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element></diagram>
