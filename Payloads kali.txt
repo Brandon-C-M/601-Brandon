@@ -1,0 +1,8 @@
+Para generar payload
+1-Rapipayload
+2- 1 (El sistema opertivo)
+3- 3 (El meterpreteer)
+3- LHost = ip de la maquina virtual o el tunel si es para afuera de la red ()
+4 - Lport = el puerto que sea si es de manera local, si es de manera externa el puerto de ngrok o localxpose
+5- poner un nombre
+6- mover el payload a al la ruta del apache
